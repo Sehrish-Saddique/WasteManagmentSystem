@@ -1,10 +1,28 @@
 package WasteRecycling;
 
 public class User {
+	User(String name, String age, String id)
+	{
+		this.name=name;
+		this.age=age;
+		this.id=id;
+	}
 	String name;
 	String age;
 	String id;
-	
+	public Boolean Login(String username,String password)
+	{
+		
+		Boolean islogin=false;
+		if(islogin)
+		{
+			System.out.println("User is Login");
+		}
+		else {
+			System.out.println("User needs to be registered");
+		}
+		return islogin;
+	}
 	public String getName() {
 		return name;
 	}
@@ -24,6 +42,6 @@ public class User {
 		this.id = id;
 	}
 	
-	
+	 
 	
 }
