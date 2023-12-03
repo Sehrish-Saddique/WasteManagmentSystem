@@ -7,5 +7,6 @@ CREATE TABLE student
 
 INSERT INTO student (id, name, password)
 VALUES (1, 'Ramesh', 'Ramesh@123');
+
 SELECT * From student 
 Go
